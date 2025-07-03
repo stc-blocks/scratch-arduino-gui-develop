@@ -8,11 +8,11 @@ import HashParserHOC from '../lib/hash-parser-hoc.jsx';
 import log from '../lib/log.js';
 
 const onClickLinkLogo = () => {
-    window.open('https://github.com/OttawaSTEM/scratch-arduino-link/releases', '_blank');
+    window.open('https://stc-creative-club.netlify.app/', '_blank');
 };
 
 const onClickLogo = () => {
-    window.open('https://ottawastem.com', '_blank'); 
+    window.open('https://stc-creative-club.netlify.app/', '_blank'); 
 };
 
 const onClickCheckUpdate = () => {

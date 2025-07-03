@@ -100,9 +100,9 @@ const projectData = translateFunction => {
                 ],
                 volume: 100,
                 visible: true,
-                x: -50,
-                y: 10,
-                size: 100,
+                x: -97,
+                y: 114,
+                size: 50,
                 direction: 90,
                 draggable: false,
                 rotationStyle: 'all around'

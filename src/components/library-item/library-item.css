@@ -14,7 +14,7 @@
     padding: 1rem 1rem 0 1rem;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: $text-primary;
-    background: white;
+    background: #42E648;  /*background ATDUINO */
     border-width: 2px;
     border-style: solid;
     border-color: $ui-black-transparent;
@@ -101,7 +101,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     min-width: 0;
-    color: $text-primary;
+    color: rgb(0, 0, 0);
     text-decoration:none;
 }
 
@@ -148,6 +148,7 @@
     line-height: 1.375rem;
     padding-top: .3125rem;
     padding-bottom: .25rem;
+     color: rgb(0, 0, 0);
 }
 
 .featured-extension-metadata-first-row {
@@ -157,7 +158,7 @@
     flex-direction: row;
     align-items: flex-start;
     font-size: 12px;
-    color: $text-primary;
+    color: BLACK;
     opacity: 0.75;
 }
 
@@ -176,7 +177,7 @@
     flex-direction: row;
     align-items: flex-start;
     font-size: 12px;
-    color: $text-primary;
+    color: black;
     opacity: 0.75;
 }
 
