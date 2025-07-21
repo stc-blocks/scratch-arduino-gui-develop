@@ -25,11 +25,22 @@ class SpriteLibrary extends React.PureComponent {
             'handleItemSelect'
         ]);
     }
-    handleItemSelect (item) {
-        // Randomize position of library sprite
-        randomizeSpritePosition(item);
-        this.props.vm.addSprite(JSON.stringify(item)).then(() => {
+    // handleItemSelect (item) {
+    //     // Randomize position of library sprite
+    //     console.log(item,"item")
+    //     randomizeSpritePosition(item);
+    //     this.props.vm.addSprite(JSON.stringify(item)).then(() => {
+    //         this.props.onActivateBlocksTab();
+    //     });
+    // }
+    handleItemSelect(item) {
+        // Randomize position (updated want to apply this directly to item.json)
+        randomizeSpritePosition(item.json);
+
+        this.props.vm.addSprite(JSON.stringify(item.json)).then(() => {
             this.props.onActivateBlocksTab();
+        }).catch(e => {
+            console.error("Failed to add sprite:", e);
         });
     }
     render () {
