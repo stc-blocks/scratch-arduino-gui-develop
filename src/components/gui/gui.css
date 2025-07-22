@@ -266,8 +266,8 @@ $fade-out-distance: 15px;
 }
 
 .extension-button-icon {
-    width: 1.75rem;
-    height: 1.75rem;
+    width: 2.75rem;
+    height: 2.75rem;
 }
 
 [dir="rtl"] .extension-button-icon {
