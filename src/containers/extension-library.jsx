@@ -16,9 +16,9 @@ import extensionIcon from '../components/action-menu/icon--sprite.svg';
 
 const messages = defineMessages({
     extensionTitle: {
-        defaultMessage: 'Choose an Extension',
+        defaultMessage: 'Choose Smart Module',
         description: 'Heading for the extension library',
-        id: 'gui.extensionLibrary.chooseAnExtension'
+        id: 'gui.extensionLibrary.ChooseSmartModule'
     },
     extensionUrl: {
         defaultMessage: 'Enter the URL of the extension',

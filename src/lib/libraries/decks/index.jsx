@@ -1313,9 +1313,9 @@ export default {
         {
             title: (
                 <FormattedMessage
-                    defaultMessage="Add Extension"
-                    description="Step name for 'Add Extension' step"
-                    id="gui.howtos.videosens.step_addextension"
+                    defaultMessage="Add1 Extension"
+                    description="Step name for 'Add1 Extension' step"
+                    id="gui.howtos.videosens.step_add1extension"
                 />
             ),
             image: 'videoAddExtension'

@@ -47,9 +47,9 @@ import soundsIcon from './icon--sounds.svg';
 
 const messages = defineMessages({
     addExtension: {
-        id: 'gui.gui.addExtension',
+        id: 'gui.gui.AddSmartModule',
         description: 'Button to add an extension in the target pane',
-        defaultMessage: 'Add Extension'
+        defaultMessage: 'Add Smart Module'
     }
 });
 

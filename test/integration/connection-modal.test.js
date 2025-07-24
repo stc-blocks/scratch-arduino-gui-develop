@@ -55,7 +55,7 @@ describe('Hardware extension connection modal', () => {
 
         await driver.executeScript(websocketFakeoutJs);
 
-        await clickXpath('//button[@title="Add Extension"]');
+        await clickXpath('//button[@title="Add Extension1"]');
 
         await clickText('EV3');
         await new Promise(resolve => setTimeout(resolve, 1000)); // Wait for modal to open

@@ -146,7 +146,7 @@ describe('Working with the blocks', () => {
 
     test('Adding an extension', async () => {
         await loadUri(uri);
-        await clickXpath('//button[@title="Add Extension"]');
+        await clickXpath('//button[@title="Add Extension1"]');
 
         await clickText('Pen');
         await new Promise(resolve => setTimeout(resolve, 1000)); // Wait for scroll animation
