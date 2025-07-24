@@ -40,14 +40,14 @@ import layout, {STAGE_SIZE_MODES} from '../../lib/layout-constants';
 import {resolveStageSize} from '../../lib/screen-utils';
 
 import styles from './gui.css';
-import addExtensionIcon from './icon--extensions.svg';
+import addExtensionIcon from './icon--extensions.png';
 import codeIcon from './icon--code.svg';
 import costumesIcon from './icon--costumes.svg';
 import soundsIcon from './icon--sounds.svg';
 
 const messages = defineMessages({
     addExtension: {
-        id: 'gui.gui.AddSmartModule',
+        id: 'gui.gui.AddSmartMgitodule',
         description: 'Button to add an extension in the target pane',
         defaultMessage: 'Add Smart Module'
     }

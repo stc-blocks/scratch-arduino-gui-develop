@@ -6,7 +6,7 @@
     position: absolute;
     width: $language-selector-width;
     height: $menu-bar-height;
-    opacity: 0;
+    opacity: 100;
     user-select: none;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: .875rem;
